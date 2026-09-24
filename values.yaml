@@ -1,6 +1,6 @@
 deployment:
   replicas: 5
-  imageVersion: stable-trixie
+  imageVersion: trixie
 service:
   type: LoadBalancer
   servicePort: 80
